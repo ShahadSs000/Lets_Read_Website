@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csspages/style1.css">
+    <link rel="stylesheet" href="csspages/navbar.css">
+    <title>Contact Us</title>
+</head>
+<body class="contact-page">
+    <header>
+        <img src="images/logo.png" alt="logo" id="logo">
+    
+    <nav class="navbar" id="nav"> <!--navbar items-->
+        <ul>
+             <li> <a href="homepage.html">Home</a></li>
+             <li> <a href="stories.html">Stories</a></li>
+             <li> <a  class="active" href="contact.html">Contact</a></li>
+             <li> <a href="about.html">About</a></li>
+        </ul>
+    </nav>
+      </header>
+   <div class="container">
+    <h1>Contact us</h1><br>
+    <h3>WE'D LOVE TO HEAR FROM YOU!</h3>
+    <p><em>We're here to help you and answer any question you maigh have.</em></p><br>
+
+    <form action="contact.php" method="post">
+    <input type="text" name="Uname" placeholder="Name" required>
+    <input type="email" name="UEmail" placeholder="Email" required> 
+    <input type="tel" name="UPhone" placeholder="Phone number" required> 
+    <textarea name="UMessage" cols="30" rows="10" placeholder="Message" required></textarea>
+    <input type="submit" value="SEND" name="send">
+    </form>
+   </div> 
+
+</body>
+</html>

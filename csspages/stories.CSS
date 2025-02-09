@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* the style of background */
+body{
+    background: linear-gradient(floralwhite,#FFFCF5);
+    background-size: cover;
+    text-align: center;
+}
+
+
+/*images style*/
+.img{
+   
+align-items: center;
+border: 4px solid darkolivegreen;
+width: 1300px;
+height:870px;
+}
+
+
+/*h1 style*/
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    color:#A0522D;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+/*h2 style*/
+
+h2{
+  
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color: darkolivegreen;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+
+}
+
+/*h3 style*/
+h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+    color: #BC6C25;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*h4 style*/
+h4{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+    color: #BC6C25;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+
+}
+
+/*h5 style*/
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:15px;
+    color:#E9B7B2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+   
+
+}
+
+
+/* the story content style*/
+pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: #DDA15E;
+    
+
+}
+
+/* the story content style*/
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: #DDA15E;
+}
+
+/*links style*/
+a{
+    color: #BC6C25;
+    text-decoration: none;
+}
+
+
+/*When the mouse is on the link, it becomes bigger. the line of the link appears without an underline*/
+a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+
+/*the horizontal line style*/
+hr{
+    border-top:dashed #E9B7B2;
+    border-bottom:dashed #E9B7B2;
+    width: 100%;
+    background-color: lightblue;
+    height: 5px;
+}
+
+
+/*back to the previous page*/
+#back p {color: #DDA15E;}
+#back a{
+    color: #BC6C25;
+    text-decoration: none;
+}
+
+#back a:hover{
+    font-size: larger;
+    text-decoration: underline;
+}

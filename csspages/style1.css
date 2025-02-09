@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* the style of background */
+.contact-page{
+    background-image: url("animel.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* the style of div that contain h1, h3, p, and form */
+.container{
+    text-align: center;
+    align-items: center; 
+    max-width: 1300px; 
+    margin: 0 auto;
+    padding: 5%;
+}
+.container h3{color: steelblue;}
+
+/*form style*/
+.container form{
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*I took this line from getcssscan.com*/
+
+    background-color: FloralWhite;
+}
+
+input,textarea{
+    display: block;
+    margin:15px auto;
+    padding: 10px;
+    width: 80%;
+   border: none;
+   border-radius: 15px;
+   background-color: rgb(254, 244, 220);
+}
+
+/* buttom style */
+input[type=submit]{
+    background-color: steelblue;
+    color: aliceblue;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 40%;
+}
+
+/*When the mouse is on the button*/
+input[type=submit]:hover{
+    background-color:lightblue ;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.05) rotate(-2deg); /*I took this line from getcssscan.com*/
+
+}  
+
+
+/*     Send page      */
+
+
+/* the style of the page */
+.send_page{
+    font-family: Georgia;
+        display: block;
+        align-items: center;
+        margin: 20% auto; 
+        background-image: url("img5.jpg");
+        background-attachment: scroll;
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+}  
+
+/*style of sender name */
+.send_page h1 em{color:rgb(210, 221, 160) ;}
+
+.send_page{width: 550px;
+padding-left:80px;}
+
+.send_page a{
+    color: steelblue;
+    text-decoration: none;
+}
+.send_page a:hover{
+    font-size: larger;
+}
+
+
+/*     About CSS       */
+
+h1,h3{font-family: Georgia;
+color: steelblue;}
+
+/*style of div that conten text and image*/
+.about-page{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.about-page img{
+    flex:50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.about-content {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: FloralWhite;
+}
+
+.about-content p {
+    color: #555;
+    margin: 15px 0;
+}
+
+.about-content p i strong{color: steelblue;}

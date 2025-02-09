@@ -1,0 +1,38 @@
+
+.container {
+    font-family: sans-seraf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 60vh;
+    font-size: 1.2em;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid rgb(36, 25, 75);
+    border-radius: 20px;
+    width: 6em;
+    height: 6en;
+    padding: 10px;
+    background-color: floralwhite;
+    color: black;
+    font-weight: bolder; 
+    font-style: italic;
+}
+.title {
+    text-align: center;
+    font-weight: lighter;
+}
+/*--بمجرد ما يمر عليه المؤشر يصير عليه ظل */
+    .first:hover {
+    transform: translater(-18px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    }
+#countar {
+    font-weight: bold; 
+    font-size: 1.5em;
+}
